@@ -1,0 +1,35 @@
+{
+  "name": "cozy-vsc-theme",
+  "displayName": "Cozy Dark Theme",
+  "icon": "icons/logo.png",
+  "version": "1.1.1",
+  "description": "Dark, warm, calming theme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "https://github.com/zacharyparrish/cozy-vsc-theme.git",
+    "type": "git"
+  },
+  "keywords": [
+    "themes"
+  ],
+  "author": "Zachary Parrish",
+  "license": "MIT",
+  "publisher": "zacharyparrish",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cozy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cozy-theme-color.json"
+      }
+    ]
+  }
+}
